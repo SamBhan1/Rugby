@@ -5,8 +5,8 @@ Predict rugby match winners using historical team performance data.
 
 ## Dataset
 - 2,783 international rugby matches
-- Date range: [your range]
-- Teams: [number of teams]
+- Date range: 1871-2024
+- Teams: 10
 
 ## Features Engineered
 1. **Team Strength**: Historical win rate for each team
@@ -21,7 +21,7 @@ Predict rugby match winners using historical team performance data.
 
 ## Key Learnings
 1. Team historical strength is the strongest predictor
-2. Recent form adds small improvement (+0.4%)
+2. Recent form adds a small improvement (+0.4%)
 3. Simpler models (LogisticRegression) can outperform complex ones
 4. Data leakage (using scores) gives false 100% accuracy
 5. Sports prediction is inherently difficult due to randomness
